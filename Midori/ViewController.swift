@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        NSThread.sleepForTimeInterval(7.0)//延長7秒
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>吳宜聰  Wu Yo Kun</string>
+		<key>Position</key>
+		<string>總經理</string>
+		<key>Email</key>
+		<string>wateractivator@gmal.com</string>
+		<key>Phone</key>
+		<string>0932301898</string>
+		<key>Fax</key>
+		<string>(02)25006200</string>
+		<key>Address</key>
+		<string>台北市中山區南京東路二段150號10F</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>阿里故 Aleigood</string>
+		<key>Position</key>
+		<string>執行長</string>
+		<key>Email</key>
+		<string>wateractivator@gmail.com</string>
+		<key>Phone</key>
+		<string>0932111111</string>
+		<key>Fax</key>
+		<string>(02)25006200</string>
+		<key>Address</key>
+		<string>台北市中山區南京東路二段150號10F</string>
+	</dict>
+</array>
+</plist>

@@ -7,15 +7,37 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
+import AVFoundation
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var audioPlayer: AVAudioPlayer!
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        Fabric.with([Crashlytics.self])
+        
+        
+//        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert, UIUserNotificationType.Badge, UIUserNotificationType.Sound],categories: nil))
+        let settings = UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound], categories: nil)
+        
+        UIApplication.sharedApplication().registerUserNotificationSettings(settings)
+        
+        _ = OneSignal(launchOptions: launchOptions, appId: "fe9b60f4-962b-4e63-a459-7b0c94240caa", handleNotification: nil)
+        
+        OneSignal.defaultClient().enableInAppAlertNotification(true)
+        
+        return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+        // print("application application: \(application.description), openURL: \(url.absoluteURL), sourceApplication: \(sourceApplication)")
         return true
     }
 
@@ -40,7 +62,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject])
+    {
+        
+//        let path = NSBundle.mainBundle().pathForResource("drop.wav", ofType:nil)!
+//        let url = NSURL(fileURLWithPath: path)
+//        
+//        do
+//        {
+//            let sound = try AVAudioPlayer(contentsOfURL: url)
+//            audioPlayer = sound
+//            sound.play()
+//        }
+//        catch
+//        {
+//            // couldn't load file :(
+//        }
+        
+    }
 
 }
 
