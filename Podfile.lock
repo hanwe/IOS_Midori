@@ -1,0 +1,31 @@
+PODS:
+  - AWSCore (2.4.3)
+  - AWSSNS (2.4.3):
+    - AWSCore (= 2.4.3)
+  - LiquidFloatingActionButton (0.1.1)
+  - SnapKit (0.21.0)
+
+DEPENDENCIES:
+  - AWSCore
+  - AWSSNS
+  - LiquidFloatingActionButton (from `https://github.com/yoavlt/LiquidFloatingActionButton.git`,
+    branch `swift-2.0`)
+  - SnapKit
+
+EXTERNAL SOURCES:
+  LiquidFloatingActionButton:
+    :branch: swift-2.0
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton.git
+
+CHECKOUT OPTIONS:
+  LiquidFloatingActionButton:
+    :commit: 25de77f23df84e0a0981193abecced8afc2ed9c7
+    :git: https://github.com/yoavlt/LiquidFloatingActionButton.git
+
+SPEC CHECKSUMS:
+  AWSCore: 1b1edbf65f948804c9d522f1c49e29f51f72c6d8
+  AWSSNS: 4dde743fe01ad3f1581bb1005dbb7fb59b518c1e
+  LiquidFloatingActionButton: dcdae1e59eb07eccbf60c027001a4d6731c345c9
+  SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
+
+COCOAPODS: 0.39.0
