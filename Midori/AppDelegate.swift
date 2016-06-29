@@ -10,6 +10,7 @@ import UIKit
 import Fabric
 import Crashlytics
 import AVFoundation
+import Firebase
 
 
 @UIApplicationMain
@@ -21,8 +22,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        Fabric.sharedSDK().debug = true
         Fabric.with([Crashlytics.self])
-        
+    
+        FIRApp.configure()
         
 //        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert, UIUserNotificationType.Badge, UIUserNotificationType.Sound],categories: nil))
         let settings = UIUserNotificationSettings(forTypes: [.Alert, .Badge, .Sound], categories: nil)

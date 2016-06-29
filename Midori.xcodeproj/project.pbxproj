@@ -14,7 +14,9 @@
 		780F4DB91D0551DB00029848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780F4DB71D0551DB00029848 /* Main.storyboard */; };
 		780F4DBE1D0551DB00029848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 780F4DBC1D0551DB00029848 /* LaunchScreen.storyboard */; };
 		780F4DC61D05526B00029848 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 780F4DC51D05526B00029848 /* Podfile */; };
-		780F4DCD1D05655100029848 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780F4DCC1D05655100029848 /* AWSMobileHubHelper.framework */; };
+		787AB70E1D2352970064DC7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 787AB70D1D2352970064DC7A /* GoogleService-Info.plist */; };
+		7889A3311D23605700404B7F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889A3301D23605700404B7F /* libc++.tbd */; };
+		7889A3331D23606800404B7F /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7889A3321D23606800404B7F /* libicucore.tbd */; };
 		788E985D1D191B0600E39160 /* AzureClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788E985C1D191B0600E39160 /* AzureClientManager.swift */; };
 		789BD30E1D056C9400DDC134 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789BD30C1D056C9400DDC134 /* Fabric.framework */; };
 		789BD30F1D056C9400DDC134 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789BD30D1D056C9400DDC134 /* Crashlytics.framework */; };
@@ -29,16 +31,14 @@
 		789BD3291D056F3200DDC134 /* WaterTreatmentRecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD3241D056F3200DDC134 /* WaterTreatmentRecycleViewController.swift */; };
 		789BD32C1D056F5D00DDC134 /* PartnerWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD32B1D056F5D00DDC134 /* PartnerWebViewController.swift */; };
 		789BD3301D056F8400DDC134 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD32E1D056F8400DDC134 /* MainTableViewCell.swift */; };
-		789BD3311D056F8400DDC134 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD32F1D056F8400DDC134 /* MainViewController.swift */; };
+		789BD3311D056F8400DDC134 /*  MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD32F1D056F8400DDC134 /*  MainViewController.swift */; };
 		789BD3361D056FB600DDC134 /* EmiirColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD3331D056FB600DDC134 /* EmiirColor.swift */; };
 		789BD3371D056FB600DDC134 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789BD3351D056FB600DDC134 /* UIImage+Gif.swift */; };
-		789BD3391D056FF000DDC134 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 789BD3381D056FF000DDC134 /* Property List.plist */; };
 		78ABE0241D0807A400330B12 /* drop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 78ABE0231D0807A400330B12 /* drop.wav */; };
 		78D20C8A1D1A2E6B0024E683 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D20C891D1A2E6B0024E683 /* OneSignal.framework */; };
 		78F8C03E1D0677F800E4FAB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78F8C03D1D0677F800E4FAB1 /* Assets.xcassets */; };
 		78F8C0401D06986800E4FAB1 /* CustomFloatingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8C03F1D06986800E4FAB1 /* CustomFloatingCell.swift */; };
 		78F8C0421D069EAA00E4FAB1 /* CustomFloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8C0411D069EAA00E4FAB1 /* CustomFloatingActionButton.swift */; };
-		78F8C0441D06AE8E00E4FAB1 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8C0431D06AE8E00E4FAB1 /* AWSMobileClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +54,10 @@
 		780F4DBF1D0551DB00029848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		780F4DC51D05526B00029848 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		780F4DCC1D05655100029848 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSMobileHubHelper.framework; path = Midori/Util/AmazonAws/AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		787AB70D1D2352970064DC7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7889A3301D23605700404B7F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7889A3321D23606800404B7F /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		7889A3341D23614E00404B7F /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
 		788E985C1D191B0600E39160 /* AzureClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzureClientManager.swift; sourceTree = "<group>"; };
 		789BD30C1D056C9400DDC134 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		789BD30D1D056C9400DDC134 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -68,17 +72,15 @@
 		789BD3241D056F3200DDC134 /* WaterTreatmentRecycleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterTreatmentRecycleViewController.swift; sourceTree = "<group>"; };
 		789BD32B1D056F5D00DDC134 /* PartnerWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerWebViewController.swift; sourceTree = "<group>"; };
 		789BD32E1D056F8400DDC134 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
-		789BD32F1D056F8400DDC134 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		789BD32F1D056F8400DDC134 /*  MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " MainViewController.swift"; sourceTree = "<group>"; };
 		789BD3331D056FB600DDC134 /* EmiirColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmiirColor.swift; sourceTree = "<group>"; };
 		789BD3351D056FB600DDC134 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
-		789BD3381D056FF000DDC134 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		78ABE0231D0807A400330B12 /* drop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = drop.wav; sourceTree = "<group>"; };
 		78D20C891D1A2E6B0024E683 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = Midori/Util/OneSingal/OneSignal.framework; sourceTree = "<group>"; };
 		78D20C8B1D1A31200024E683 /* Midori-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Midori-Bridging-Header.h"; sourceTree = "<group>"; };
 		78F8C03D1D0677F800E4FAB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78F8C03F1D06986800E4FAB1 /* CustomFloatingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFloatingCell.swift; sourceTree = "<group>"; };
 		78F8C0411D069EAA00E4FAB1 /* CustomFloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFloatingActionButton.swift; sourceTree = "<group>"; };
-		78F8C0431D06AE8E00E4FAB1 /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMobileClient.swift; sourceTree = "<group>"; };
 		E3460DE51E61188BF1C6B8A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,8 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7889A3331D23606800404B7F /* libicucore.tbd in Frameworks */,
+				7889A3311D23605700404B7F /* libc++.tbd in Frameworks */,
 				78D20C8A1D1A2E6B0024E683 /* OneSignal.framework in Frameworks */,
-				780F4DCD1D05655100029848 /* AWSMobileHubHelper.framework in Frameworks */,
 				1D62DAF8420BA395308AE62A /* Pods.framework in Frameworks */,
 				789BD30F1D056C9400DDC134 /* Crashlytics.framework in Frameworks */,
 				789BD30E1D056C9400DDC134 /* Fabric.framework in Frameworks */,
@@ -111,6 +114,9 @@
 		5269CD093DFAC0D7BF2DE2A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7889A3341D23614E00404B7F /* Firebase.framework */,
+				7889A3321D23606800404B7F /* libicucore.tbd */,
+				7889A3301D23605700404B7F /* libc++.tbd */,
 				78D20C891D1A2E6B0024E683 /* OneSignal.framework */,
 				7803058B1D13A70900D63873 /* HealthKit.framework */,
 				789BD30C1D056C9400DDC134 /* Fabric.framework */,
@@ -157,7 +163,7 @@
 				780F4DBC1D0551DB00029848 /* LaunchScreen.storyboard */,
 				78F8C03D1D0677F800E4FAB1 /* Assets.xcassets */,
 				780F4DBF1D0551DB00029848 /* Info.plist */,
-				789BD3381D056FF000DDC134 /* Property List.plist */,
+				787AB70D1D2352970064DC7A /* GoogleService-Info.plist */,
 			);
 			path = Midori;
 			sourceTree = "<group>";
@@ -170,17 +176,8 @@
 				789BD3321D056FB600DDC134 /* Color */,
 				789BD3341D056FB600DDC134 /* Support */,
 				789BD32A1D056F5D00DDC134 /* OutletWeb */,
-				780F4DCB1D05652300029848 /* AmazonAws */,
 			);
 			path = Util;
-			sourceTree = "<group>";
-		};
-		780F4DCB1D05652300029848 /* AmazonAws */ = {
-			isa = PBXGroup;
-			children = (
-				78F8C0431D06AE8E00E4FAB1 /* AWSMobileClient.swift */,
-			);
-			path = AmazonAws;
 			sourceTree = "<group>";
 		};
 		788E985B1D191AD700E39160 /* AzureClient */ = {
@@ -273,7 +270,7 @@
 			isa = PBXGroup;
 			children = (
 				789BD32E1D056F8400DDC134 /* MainTableViewCell.swift */,
-				789BD32F1D056F8400DDC134 /* MainViewController.swift */,
+				789BD32F1D056F8400DDC134 /*  MainViewController.swift */,
 				78F8C03F1D06986800E4FAB1 /* CustomFloatingCell.swift */,
 				78F8C0411D069EAA00E4FAB1 /* CustomFloatingActionButton.swift */,
 			);
@@ -385,7 +382,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				789BD3391D056FF000DDC134 /* Property List.plist in Resources */,
+				787AB70E1D2352970064DC7A /* GoogleService-Info.plist in Resources */,
 				780F4DBE1D0551DB00029848 /* LaunchScreen.storyboard in Resources */,
 				780F4DC61D05526B00029848 /* Podfile in Resources */,
 				780F4DB91D0551DB00029848 /* Main.storyboard in Resources */,
@@ -464,14 +461,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				789BD3181D056F2500DDC134 /* ContactsTableViewCell.swift in Sources */,
-				789BD3311D056F8400DDC134 /* MainViewController.swift in Sources */,
+				789BD3311D056F8400DDC134 /*  MainViewController.swift in Sources */,
 				78F8C0401D06986800E4FAB1 /* CustomFloatingCell.swift in Sources */,
 				780F4DB61D0551DB00029848 /* ViewController.swift in Sources */,
 				78F8C0421D069EAA00E4FAB1 /* CustomFloatingActionButton.swift in Sources */,
 				789BD3371D056FB600DDC134 /* UIImage+Gif.swift in Sources */,
 				780F4DB41D0551DB00029848 /* AppDelegate.swift in Sources */,
 				789BD3291D056F3200DDC134 /* WaterTreatmentRecycleViewController.swift in Sources */,
-				78F8C0441D06AE8E00E4FAB1 /* AWSMobileClient.swift in Sources */,
 				789BD3171D056F2500DDC134 /* ContactsInfo.swift in Sources */,
 				789BD3281D056F3200DDC134 /* WaterTreatmentViewController.swift in Sources */,
 				789BD32C1D056F5D00DDC134 /* PartnerWebViewController.swift in Sources */,
